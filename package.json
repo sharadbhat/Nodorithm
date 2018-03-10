@@ -1,0 +1,11 @@
+{
+  "name": "nodegorithm",
+  "version": "1.0.0",
+  "description": "Package for algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sharad Bhat <sharad.mbhat@gmail.com> (https://github.com/sharadbhat)",
+  "license": "ISC"
+}
