@@ -1,5 +1,5 @@
 /**
- * Performs insertion search.
+ * Performs insertion sort.
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */

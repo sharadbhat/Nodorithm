@@ -1,5 +1,5 @@
 /**
- * Performs bubble search.
+ * Performs bubble sort.
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
