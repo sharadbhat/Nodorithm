@@ -19,7 +19,7 @@ const quickSort = function (array) {
 				left.push(array[i]);
 			}
       else {
-				right.push(array[i]);
+			right.push(array[i]);
 			}
 		}
 
