@@ -1,6 +1,6 @@
 {
   "name": "nodorithm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package for commonly used algorithms.",
   "main": "nodorithm.js",
   "scripts": {

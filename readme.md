@@ -60,30 +60,30 @@ console.log(result);
 Each algorithm takes 1 argument.
 ###### Bubble Sort
 ```javascript
-var result = (nodorithm.sort.bubbleSort(array=[1,2,3,4]));
+var result = (nodorithm.sort.bubbleSort(array=[4,2,3,1]));
 console.log(result);
 ```
 
 ###### Insertion Sort
 ```javascript
-var result = (nodorithm.sort.insertionSort(array=[1,2,3,4]));
+var result = (nodorithm.sort.insertionSort(array=[4,2,3,1]));
 console.log(result);
 ```
 
 ###### Merge Sort
 ```javascript
-var result = (nodorithm.sort.mergeSort(array=[1,2,3,4]));
+var result = (nodorithm.sort.mergeSort(array=[4,2,3,1]));
 console.log(result);
 ```
 
 ###### Quick Sort
 ```javascript
-var result = (nodorithm.sort.quickSort(array=[1,2,3,4]));
+var result = (nodorithm.sort.quickSort(array=[4,2,3,1]));
 console.log(result);
 ```
 
 ###### Selection Sort
 ```javascript
-var result = (nodorithm.sort.selectionSort(array=[1,2,3,4]));
+var result = (nodorithm.sort.selectionSort(array=[4,2,3,1]));
 console.log(result);
 ```
