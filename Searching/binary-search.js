@@ -8,7 +8,7 @@ const binarySearch = function (array, key) {
   low = 0;
   high = array.length - 1;
   while (low <= high) {
-    mid = (low + high) / 2;
+    mid = parseInt((low + high) / 2);
     if (array[mid] === key) {
       return mid;
     }

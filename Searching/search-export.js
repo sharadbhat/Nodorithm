@@ -1,13 +1,13 @@
-const linearSearch = require('./linear-search.js');
 const binarySearch = require('./binary-search.js');
-const jumpSearch = require('./jump-search.js');
 const interpolationSearch = require('./interpolation-search.js');
+const jumpSearch = require('./jump-search.js');
+const linearSearch = require('./linear-search.js');
 
 exports = {
-  linearSearch,
   binarySearch,
+  interpolationSearch,
   jumpSearch,
-  interpolationSearch
+  linearSearch
 };
 
 module.exports = exports;
