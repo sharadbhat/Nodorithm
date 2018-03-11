@@ -11,6 +11,12 @@ npm install nodorithm
 ```
 
 ### Algorithms
+##### Searching
+- Binary Search
+- Interpolation Search
+- Jump Search
+- Linear Search
+
 ##### Sorting
 - Bubble Sort
 - Insertion Sort
@@ -18,19 +24,13 @@ npm install nodorithm
 - Quick Sort
 - Selection Sort
 
-##### Searching
-- Binary Search
-- Interpolation Search
-- Jump Search
-- Linear Search
-
 #### Usage
 To use the package,
 ```javascript
 const nodorithm = require('nodorithm');
 ```
 
-##### Sorting
+##### Searching
 Each algorithm takes 2 arguments.
 ###### Binary Search
 ```javascript

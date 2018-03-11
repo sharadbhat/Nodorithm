@@ -1,7 +1,7 @@
 {
   "name": "nodorithm",
-  "version": "1.0.1",
-  "description": "Package for algorithms.",
+  "version": "1.0.2",
+  "description": "Package for commonly used algorithms.",
   "main": "nodorithm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
