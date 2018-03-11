@@ -1,11 +1,11 @@
 {
   "name": "nodorithm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Package for commonly used algorithms.",
   "main": "nodorithm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sharad Bhat <sharad.mbhat@gmail.com> (https://github.com/sharadbhat)",
-  "license": "ISC"
+  "license": "MIT"
 }
