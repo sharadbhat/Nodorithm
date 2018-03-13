@@ -20,6 +20,7 @@ npm install nodorithm
 ##### Sorting
 - Bubble Sort
 - Comb Sort
+- Counting Sort
 - Heap Sort
 - Insertion Sort
 - Merge Sort
@@ -70,6 +71,12 @@ console.log(result);
 ###### Comb Sort
 ```javascript
 var result = (nodorithm.sort.combSort(array=[4,2,3,1]));
+console.log(result);
+```
+
+###### Counting Sort
+```javascript
+var result = (nodorithm.sort.countingSort(array=[4,2,3,1]));
 console.log(result);
 ```
 
