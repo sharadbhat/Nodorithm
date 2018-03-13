@@ -1,15 +1,19 @@
 const bubbleSort = require('./bubble-sort.js');
+const heapSort = require('./heap-sort.js');
 const insertionSort = require('./insertion-sort.js');
 const mergeSort = require('./merge-sort.js');
 const quickSort = require('./quick-sort.js');
 const selectionSort = require('./selection-sort.js');
+const shellSort = require('./shell-sort.js');
 
 exports = {
   bubbleSort,
+  heapSort,
   insertionSort,
   mergeSort,
   quickSort,
-  selectionSort
+  selectionSort,
+  shellSort
 };
 
 module.exports = exports;

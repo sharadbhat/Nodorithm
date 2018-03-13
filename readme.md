@@ -19,10 +19,12 @@ npm install nodorithm
 
 ##### Sorting
 - Bubble Sort
+- Heap Sort
 - Insertion Sort
 - Merge Sort
 - Quick Sort
 - Selection Sort
+- Shell Sort
 
 #### Usage
 To use the package,
@@ -64,6 +66,12 @@ var result = (nodorithm.sort.bubbleSort(array=[4,2,3,1]));
 console.log(result);
 ```
 
+###### Heap Sort
+```javascript
+var result = (nodorithm.sort.heapSort(array=[4,2,3,1]));
+console.log(result);
+```
+
 ###### Insertion Sort
 ```javascript
 var result = (nodorithm.sort.insertionSort(array=[4,2,3,1]));
@@ -85,5 +93,11 @@ console.log(result);
 ###### Selection Sort
 ```javascript
 var result = (nodorithm.sort.selectionSort(array=[4,2,3,1]));
+console.log(result);
+```
+
+###### Shell Sort
+```javascript
+var result = (nodorithm.sort.shellSort(array=[4,2,3,1]));
 console.log(result);
 ```
