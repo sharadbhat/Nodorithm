@@ -19,6 +19,7 @@ npm install nodorithm
 
 ##### Sorting
 - Bubble Sort
+- Comb Sort
 - Heap Sort
 - Insertion Sort
 - Merge Sort
@@ -63,6 +64,12 @@ Each algorithm takes 1 argument.
 ###### Bubble Sort
 ```javascript
 var result = (nodorithm.sort.bubbleSort(array=[4,2,3,1]));
+console.log(result);
+```
+
+###### Comb Sort
+```javascript
+var result = (nodorithm.sort.combSort(array=[4,2,3,1]));
 console.log(result);
 ```
 
