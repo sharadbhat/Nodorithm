@@ -4,7 +4,7 @@
  * @param {number} key - The value to be searched.
  * @returns {number} - Index of key in the array, -1 if not present.
  */
-const binarySearch = function (array, key) {
+const binarySearch = (array, key) => {
   low = 0;
   high = array.length - 1;
   while (low <= high) {

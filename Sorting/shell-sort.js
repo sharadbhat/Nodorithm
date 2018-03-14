@@ -3,7 +3,7 @@
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
-const shellSort = function (array) {
+const shellSort = (array) => {
   var increment = array.length / 2;
   while (increment > 0) {
       for (i = increment; i < array.length; i++) {

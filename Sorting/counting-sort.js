@@ -3,7 +3,7 @@
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
-const countingSort = function (array) {
+const countingSort = (array) => {
   var max = Math.max.apply(Math, array);
   var min = Math.min.apply(Math, array);
   var i, z = 0, count = [];

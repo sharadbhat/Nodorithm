@@ -3,7 +3,7 @@
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
-const quickSort = function (array) {
+const quickSort = (array) => {
   if (array.length <= 1) {
     return array;
   }

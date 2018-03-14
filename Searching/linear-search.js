@@ -4,7 +4,7 @@
  * @param {number} key - The value to be searched.
  * @returns {number} - Index of key in the array, -1 if not present.
  */
-const linearSearch = function (array, key) {
+const linearSearch = (array, key) => {
   for (i = 0; i < array.length; i++) {
     if (array[i] === key) {
       return i;

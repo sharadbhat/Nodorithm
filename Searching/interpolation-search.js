@@ -4,7 +4,7 @@
  * @param {number} key - The value to be searched.
  * @returns {number} - Index of key in the array, -1 if not present.
  */
-const interpolationSearch = function (array, key) {
+const interpolationSearch = (array, key) => {
   low = 0;
   high = array.length - 1;
 

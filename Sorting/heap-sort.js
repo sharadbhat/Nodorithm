@@ -3,7 +3,7 @@
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
-const heapSort = function (array) {
+const heapSort = (array) => {
   buildMaxHeap(array);
 
   lastElement = array.length - 1;

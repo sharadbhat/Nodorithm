@@ -4,7 +4,7 @@
  * @param {number} key - The value to be searched.
  * @returns {number} - Index of key in the array, -1 if not present.
  */
-const jumpSearch = function (array, key) {
+const jumpSearch = (array, key) => {
   step = parseInt(Math.sqrt(array.length));
   previous = 0;
 

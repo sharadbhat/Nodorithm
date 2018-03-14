@@ -3,7 +3,7 @@
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
-const insertionSort = function (array) {
+const insertionSort = (array) => {
   for (var i = 1; i < array.length; i++) {
     key = array[i];
     j = i - 1;

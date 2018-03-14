@@ -3,7 +3,7 @@
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
-const mergeSort = function (array) {
+const mergeSort = (array) => {
   if (array.length < 2) {
       return array;
   }

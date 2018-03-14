@@ -3,7 +3,7 @@
  * @param {number[]} array - The array to be sorted.
  * @returns {number[]} - The sorted array.
  */
-const combSort = function (array) {
+const combSort = (array) => {
   var interval = Math.floor(array.length/1.3);
   while (interval > 0) {
     for(var i=0; i+interval<array.length; i+=1) {
