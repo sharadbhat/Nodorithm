@@ -1,12 +1,12 @@
-const bubbleSort = require('./bubble-sort.js');
-const combSort = require('./comb-sort.js');
-const countingSort = require('./counting-sort.js');
-const heapSort = require('./heap-sort.js');
-const insertionSort = require('./insertion-sort.js');
-const mergeSort = require('./merge-sort.js');
-const quickSort = require('./quick-sort.js');
-const selectionSort = require('./selection-sort.js');
-const shellSort = require('./shell-sort.js');
+const bubbleSort = require('./bubble-sort');
+const combSort = require('./comb-sort');
+const countingSort = require('./counting-sort');
+const heapSort = require('./heap-sort');
+const insertionSort = require('./insertion-sort');
+const mergeSort = require('./merge-sort');
+const quickSort = require('./quick-sort');
+const selectionSort = require('./selection-sort');
+const shellSort = require('./shell-sort');
 
 exports = {
   bubbleSort,

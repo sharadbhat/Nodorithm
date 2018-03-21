@@ -1,6 +1,6 @@
-const search = require('./Searching/search-export.js');
-const sort = require('./Sorting/sort-export.js');
-const string = require('./String/string-export.js');
+const search = require('./Searching/search-export');
+const sort = require('./Sorting/sort-export');
+const string = require('./String/string-export');
 
 exports = {
   search,

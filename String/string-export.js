@@ -1,4 +1,4 @@
-const capitalizeFirstLetter = require('./capitalize-first-letter.js');
+const capitalizeFirstLetter = require('./capitalize-first-letter');
 
 exports = {
   capitalizeFirstLetter
