@@ -28,6 +28,9 @@ npm install nodorithm
 - Selection Sort
 - Shell Sort
 
+##### String
+- Capitalize First Letter
+
 #### Usage
 To use the package,
 ```javascript
@@ -113,5 +116,13 @@ console.log(result);
 ###### Shell Sort
 ```javascript
 var result = (nodorithm.sort.shellSort(array=[4,2,3,1]));
+console.log(result);
+```
+
+##### String
+Each algorithm takes 1 argument.
+###### Capitalize First Letter
+```javascript
+var result = (nodorithm.string.capitalizeFirstLetter(string="abcd efgh"));
 console.log(result);
 ```
