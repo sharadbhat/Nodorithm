@@ -16,5 +16,6 @@
     "sorting"
   ],
   "author": "Sharad Bhat <sharad.mbhat@gmail.com> (https://github.com/sharadbhat)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
